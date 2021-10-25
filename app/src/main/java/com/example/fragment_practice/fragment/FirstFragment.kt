@@ -15,8 +15,9 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         return inflater.inflate(R.layout.fragment_first,container,false)
+
+
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
